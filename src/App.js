@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import PageHeader from "./components/Header";
+import Wizard from "./components/Main/index";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
+      <PageHeader />
+      <Wizard />
       <Footer />
     </div>
   );
